@@ -31,8 +31,8 @@ nota = "A";
 
 // Tipo intersection para combinar múltiplos tipos
 type Aluno = {
-    nome: string;
-    idade: number;
+    nome: string
+    idade: number
 };
 
 type Estudante = Aluno & {
