@@ -5,30 +5,35 @@ Considere um sistema de cadastro de usuários onde precisamos armazenar informa�
 Vamos criar variáveis e objetos para representar diferentes tipos de dados relacionados a um usuário.
 
 1- Crie as seguintes variáveis primitivas:*/
-    let nomeCompleto: string = "oi"
-    let idade: number = 2
-    let email: string = "23123@gmail.com"
-    let isAtivo: boolean = true
+let nomeCompleto: string = "oi"
+let idade: number = 2
+let email: string = "23123@gmail.com"
+let isAtivo: boolean = true
 /*
 2 -Crie um objeto usuario com as seguintes propriedades:
 
-    */
-   type Usuario = {
+*/
+let Usuario: {
 
-        nome: string,
-        sobrenome: string,
-        idade: number,
-        contato: string,
-        email: string,
-        telefone: number
+    nome: string,
+    sobrenome: string,
+    idade: number,
+    contato: string,
+    email: string,
+    telefone: number
+}
+
+   Usuario = {
+        nome: "Caue",
+        sobrenome: "Moura",
+        idade: 2,
+        contato: "212d3qxa",
+        email: "dasdas",
+        telefone: 232
    }
+   console.log(Usuario.nome)
 
 
-   type Ifsp = {
-
-        aluno: Usuario
-
-   }
    
 
    /*
